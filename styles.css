@@ -17,18 +17,6 @@ body {
 .equilibrium-container {
     display: flex;
 }
-.overlay {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    background-color: hsl(178, 100%, 50%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: .5;
-    display: none;
-
-}
 
 #image-equilibrium {
     width: 85%;
@@ -72,6 +60,9 @@ body {
     justify-content: space-between;
 
 }
+.ethereum {
+    white-space: no-wrap;
+}
 .clock p{
     color: hsl(215, 51%, 70%);
 }
@@ -79,7 +70,8 @@ body {
     font-size: small;
 }
 #price {
-    color: hsl(178, 100%, 50%)
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
 }
 .clock {
   display: flex;
@@ -106,14 +98,17 @@ hr {
     color: aliceblue;
     font-size: small;
 }
-
 #name {
     color:hsl(215, 51%, 70%)
 }
 .view-icon {
     display: none;
 }
-#image-equilibrium:hover .overlay{
-    display: block;
+#image-equilibrium:hover{
+    background-color: rgba(211, 17, 17, 0.5);
     cursor: pointer;
+}
+.icon-ethereum {
+    height: min-content;
+    display: inline-block;
 }
