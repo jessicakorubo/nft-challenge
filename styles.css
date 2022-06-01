@@ -112,3 +112,7 @@ hr {
     height: min-content;
     display: inline-block;
 }
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
