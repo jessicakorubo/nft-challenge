@@ -111,6 +111,8 @@ hr {
 .icon-ethereum {
     height: min-content;
     display: inline-block;
+    position: relative;
+    top: 3px;
 }
 #name:hover{
     color: hsl(178, 100%, 50%);
